@@ -5,7 +5,7 @@ export function FormComponent() {
   return (
     <form action="" className={styles.form}>
       <div className={styles.formRow}>
-        <DefaultInput id="task" type="text" />
+        <DefaultInput id="task" type="text" labelText="Tarefa" />
       </div>
       <div className={styles.formRow}>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
