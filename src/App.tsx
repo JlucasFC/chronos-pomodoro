@@ -1,15 +1,23 @@
+import { Menu } from "./components/Menu";
 import { Container } from "./components/Container";
-import { Header } from "./components/Header";
-import { Timer } from "lucide-react";
+import { Logo } from "./components/Logo";
+import { CountDown } from "./components/CountDown";
+import { FormComponent } from "./components/Form";
 
 function App() {
   return (
     <>
       <Container>
-        <Header>
-          <Timer />
-          <h1>Chronos</h1>
-        </Header>
+        <Logo />
+      </Container>
+      <Container>
+        <Menu />
+      </Container>
+      <Container>
+        <CountDown />
+      </Container>
+      <Container>
+        <FormComponent />
       </Container>
     </>
   );
